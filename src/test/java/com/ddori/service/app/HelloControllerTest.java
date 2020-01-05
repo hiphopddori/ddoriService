@@ -25,7 +25,6 @@ public class HelloControllerTest {
         mvc.perform(get("/hello"))
                 .andExpect(status().isOk())
                 .andExpect(content().string(hello));
-
     }
     @Test
     public void helloDto가_리턴된다() throws Exception{

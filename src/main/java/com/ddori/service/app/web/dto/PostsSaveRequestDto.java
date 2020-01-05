@@ -2,8 +2,10 @@ package com.ddori.service.app.web.dto;
 
 import com.ddori.service.app.domian.posts.Posts;
 import lombok.Builder;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+@Getter
 @NoArgsConstructor
 public class PostsSaveRequestDto {
 
