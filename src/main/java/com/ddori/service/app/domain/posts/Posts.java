@@ -1,4 +1,5 @@
-package com.ddori.service.app.domian.posts;
+package com.ddori.service.app.domain.posts;
+
 
 import lombok.Builder;
 import lombok.Getter;
@@ -34,3 +35,4 @@ public class Posts {
         this.content = content;
     }
 }
+
