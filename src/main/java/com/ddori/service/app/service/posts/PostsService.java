@@ -1,7 +1,7 @@
 package com.ddori.service.app.service.posts;
 
-import com.ddori.service.app.domian.posts.Posts;
-import com.ddori.service.app.domian.posts.PostsRepository;
+import com.ddori.service.app.domain.posts.Posts;
+import com.ddori.service.app.domain.posts.PostsRepository;
 import com.ddori.service.app.web.dto.PostsResponseDto;
 import com.ddori.service.app.web.dto.PostsSaveRequestDto;
 import com.ddori.service.app.web.dto.PostsUpdateRequestDto;

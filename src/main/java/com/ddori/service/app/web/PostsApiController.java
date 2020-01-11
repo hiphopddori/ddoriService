@@ -1,6 +1,6 @@
 package com.ddori.service.app.web;
 
-import com.ddori.service.app.domian.posts.Posts;
+import com.ddori.service.app.domain.posts.Posts;
 import com.ddori.service.app.service.posts.PostsService;
 import com.ddori.service.app.web.dto.PostsResponseDto;
 import com.ddori.service.app.web.dto.PostsSaveRequestDto;
