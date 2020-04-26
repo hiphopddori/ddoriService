@@ -11,13 +11,13 @@ import static org.hamcrest.Matchers.is;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-@RunWith(SpringRunner.class)
-@WebMvcTest
+// @RunWith(SpringRunner.class)
+// @WebMvcTest
 public class HelloControllerTest {
 
     @Autowired
     private MockMvc mvc;
-
+    /*
     @Test
     public void hello가_리턴된다() throws Exception{
         String hello = "hello";
@@ -40,6 +40,6 @@ public class HelloControllerTest {
                     .andExpect(jsonPath("$.name",is(name)))
                     .andExpect(jsonPath("$.amount",is(amount)));
     }
-
+    */
 }
 
