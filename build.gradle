@@ -25,6 +25,15 @@ repositories {
     jcenter()
 }
 
+configurations {
+    developmentOnly
+    runtimeClasspath {
+        extendsFrom developmentOnly
+    }
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
@@ -37,7 +46,9 @@ dependencies {
 
     compile('org.springframework.boot:spring-boot-starter-oauth2-client')
     compile('org.springframework.session:spring-session-jdbc')
+    compile("org.springframework.boot:spring-boot-starter-actuator")
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile("org.springframework.security:spring-security-test")
+    developmentOnly("org.springframework.boot:spring-boot-devtools")
 }
